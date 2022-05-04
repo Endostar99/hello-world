@@ -1,11 +1,87 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello World</title>
-  <head/>
+    <style>
+      img {
+        width: 200px;
+        border-radius: 50px;
+        margin-right: 10px;
+      }
+
+      .name {
+        font-weight: bold;
+        text-align: center;
+        color: black;
+        text-shadow: 1px 1px 2px pink;
+      }
+
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      div {
+        display: table;
+        margin: auto;
+      }
+
+      body {
+        background-color: bisque;
+      }
+    </style>
+  </head>
   <body>
-    <h1>Hello HTML</h1>
-    <p>Hello from Gitpod</p>
+    <h1 class="name" style="font-family: monospace">Hey HTML &#128075;</h1>
+    <p class="name">
+      <a href="https://www.freecodecamp.org/"
+        >Best website for learning HTML and CSS</a
+      >
+    </p>
+    <img
+      src="https://i1.wp.com/linkedtoskills.com/wp-content/uploads/2019/12/freeCodeCamp.jpg?fit=351%2C182&ssl=1"
+      alt="Best website for learning HTML"
+      class="center"
+    />
+    <div>
+      <p>What you need to succeed:</p>
+      <ul>
+        <li>Persistence</li>
+        <li>Self-discipline</li>
+        <li>Commitment to learning</li>
+      </ul>
+      <p>Reasons for failure:</p>
+      <ol>
+        <li>Low confidence</li>
+        <li>Inadequate training</li>
+        <li>Not learning from past mistakes</li>
+      </ol>
+    </div>
+
+    <p style="font-family: monospace">HTML headings check:</p>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <button>Got it!</button>
+    <button>WTF is this?</button>
+
+    <h2>HTML Form:</h2>
+    <form
+      action="https://us.123rf.com/450wm/alextanya123rf/alextanya123rf1712/alextanya123rf171200011/91047109-you-are-the-best-text-typography-for-card-poster-invitation-or-t-shirt-lettering-design-vibrant-colo.jpg?ver=6"
+    >
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" value="Ivan" /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" value="Ianchuk" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
   </body>
 </html>
-
